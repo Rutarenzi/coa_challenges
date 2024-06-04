@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
   gap: 8px;
-    
+
 }
 
 .grid-image {
@@ -41,7 +41,7 @@
     transition: background-color 0.4s ease; 
     z-index: 1; 
   }
-  
+
   .grid-image:hover .overlay {
     background-color: rgba(0, 0, 0, 0.7); 
   }
@@ -89,7 +89,7 @@
     font-size: 24px;
    }
   }
-  
+
 @media screen and (max-width: 900px){
     .Description {
         display: none
