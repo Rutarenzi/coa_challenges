@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 8px;
+    
+}
+
+.grid-image {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.Img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease
+}
+
+.grid-image:hover .Img {
+    filter: grayscale(100%) blur(5px);
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.4s ease; 
+    z-index: 1; 
+  }
+  
+  .grid-image:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+.Description {
+    position: absolute;
+    padding: 40px;
+    color: white;
+    z-index: 2;
+  }
+.title {
+    margin-top: -180px;
+    transition: margin-top 0.4s ease;
+    color: white;
+    margin-bottom: 8px;
+}
+.title h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+    margin-bottom: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    word-break: break-word;
+}
+
+.title p{
+  opacity: 70%
+}
+.grid-image:hover .title {
+ margin-top: -200px;
+
+}
+
+.link {
+    display: none;
+    transition: display 0.4s ease;
+    text-decoration: none;
+    color: rgb(115, 236, 245)
+}
+.grid-image:hover .link {
+    display: block
+}
+@media screen and (min-width: 901px) and (max-width: 1380px) {
+   .Description .title h3{
+    font-size: 24px;
+   }
+  }
+  
+@media screen and (max-width: 900px){
+    .Description {
+        display: none
+    }
+}
