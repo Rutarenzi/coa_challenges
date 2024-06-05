@@ -26,7 +26,7 @@ Each solution provided here addresses a specific homework challenge, along with 
 ```
 
 #  PART 1 (Gallery)
-This contains the code for the Best Photo Gallery, a web application designed to showcase a curated collection of stunning photographs.
+This FOLDER contains the code for the Best Photo Gallery, a web application designed to showcase a curated collection of stunning photographs.
  The gallery features an elegant and user-friendly interface, 
  allowing users to browse through the images with ease and enjoy an immersive viewing experience.
    
