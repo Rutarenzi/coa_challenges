@@ -31,14 +31,14 @@ This contains the code for the Best Photo Gallery, a web application designed to
  allowing users to browse through the images with ease and enjoy an immersive viewing experience.
    
    ## Test 
-   - `Online gallery`: click here [https://coa-challenges.vercel.app/](url)
-   - `Clone folder`: Open index.html in Gallery folder
+   - `Online gallery`: click here ['GALLERY'](https://coa-challenges.vercel.app/)
+   - `Cloned folder`: Open index.html in Gallery folder
 
 
 #  PART 2 (Challenges)
-This contains the code for the chal, a web application designed to showcase a curated collection of stunning photographs.
- The gallery features an elegant and user-friendly interface, 
- allowing users to browse through the images with ease and enjoy an immersive viewing experience.
+
+This FOLDER contains the code for the JavaScript challenges, a collection of coding exercises aimed at 
+enhancing problem-solving skills and understanding of JavaScript concepts.
    
    ## Test 
     Open the project in your code editor and open terminal
